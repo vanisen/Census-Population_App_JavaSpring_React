@@ -8,7 +8,6 @@ It appllication is based on CQRS design patter with shared database. It has diff
 1. Java 8
 2. Maven 3+
 3. MySQL
-4. npm
 
 ## Tech Stacks used:
 
@@ -18,9 +17,8 @@ It appllication is based on CQRS design patter with shared database. It has diff
 4. Spring Boot
 5. Spring Data
 6. Spring Exception Handling
-7. React
 
-## Steps to run the application - backend:
+## Steps to run the application:
 
 1. Start MySQL
 2. create census schema in MySQL
@@ -29,38 +27,8 @@ It appllication is based on CQRS design patter with shared database. It has diff
 5. build census - mvn clean install
 6. Execue in terminal - java -jar target/demographics-1.0-SNAPSHOT.jar
 
-## Steps to run the application - frontend:
 
-Navigate to census/census-client folder
-
-# `npm install`
-
-Installs the node dependencies for the project.<br/>
-It will download the required third party dependencies and install them.
-
-## `npm run start`
-
-Runs the app in the development mode.<br />
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-## `npm run test`
-
-Launches the test runner in the interactive watch mode.<br />
-
-## `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-## Notes
-The Census Client has a basic UI for visualizing limited data.<br/>
-It can be improved further by including pagination, lazy loading etc.<br/>
-
-## Additional Information : Below are sample URLs for each functionality in the app
+##Below are sample URLs for each functionality in the app
 
 1. Import Data 2010 Census Populations by Zip Codefrom CSV into Database for use by API.
 	METHOD: POST
