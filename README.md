@@ -1,4 +1,4 @@
-# Cansus Population App
+# Census Population App
 
 This application uploads the census data and provides query on it.<br/>
 It appllication is based on CQRS design patter with shared database. It has different handlers for POST and GET services.
